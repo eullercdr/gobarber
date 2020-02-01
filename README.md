@@ -5,4 +5,4 @@ Aplicação Backend Gobarber RocketSeat
 yarn eslint --fix src --ext .js (Corrige e formata todos os arquivos)
 
 # Commandos Sequelize
-yarn eslint --fix src --ext .js (Corrige e formata todos os arquivos)
+yarn sequelize migration:create --name=create-nameTable (Criação de Migrations)
