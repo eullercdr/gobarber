@@ -10,3 +10,6 @@ yarn sequelize db:migrate (Criação da Migration)
 yarn sequelize db:migrante:undo (Desfaz a ultima migration)    
 yarn sequelize db:migrante:undo (Desfaz a ultima migration)  
 yarn sequelize db:migrante:undo:all (Desfaz todas as migrations)
+
+# JWT (JSON WEB TOKEN)
+Headers (tipo de token, algoritimo), Payload (Dados adicionais), Assinatura
