@@ -2,14 +2,14 @@
 Aplicação Backend Gobarber RocketSeat
 
 # Commandos EsLint
-    `yarn eslint --fix src --ext .js (Corrige e formata todos os arquivos)`
+    yarn eslint --fix src --ext .js (Corrige e formata todos os arquivos)
 
 # Commandos Sequelize
-    `yarn sequelize migration:create --name=create-nameTable (Criação de Migrations)  
+    yarn sequelize migration:create --name=create-nameTable (Criação de Migrations)  
     yarn sequelize db:migrate (Criação da Migration)  
     yarn sequelize db:migrate:undo (Desfaz a ultima migration)    
     yarn sequelize db:migrate:undo (Desfaz a ultima migration)  
-    yarn sequelize db:migrate:undo:all (Desfaz todas as migrations)`
+    yarn sequelize db:migrate:undo:all (Desfaz todas as migrations)
 
 # JWT (JSON WEB TOKEN)
 Headers (tipo de token, algoritimo), Payload (Dados adicionais), Assinatura
@@ -27,4 +27,5 @@ Headers (tipo de token, algoritimo), Payload (Dados adicionais), Assinatura
 - [JWT](https://jwt.io/)
 - [Bcrypt](https://www.npmjs.com/package/bcrypt)
 - [Yup](https://www.npmjs.com/package/yup)
+- [Datefns](https://date-fns.org/)
 - [VS Code](https://code.visualstudio.com/) with [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
